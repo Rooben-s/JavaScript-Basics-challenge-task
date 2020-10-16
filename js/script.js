@@ -1,29 +1,17 @@
-// 1. Display an alert dialog with the content: "Warning! This message will self-destruct in"
-alert("warning! this message will slef-destruct in");
+// There are two files: index.html and app.js. To run the programming in app.js, you first need to load it into index.html. Add the required HTML to load the external JavaScript file into the web page. Make sure to add your code inside the <body> element.
+
+
+// Next, in the app.js file, add the code required to print "Begin program" to the browser's JavaScript console.
+console.log("Begin program");
+
+
+// Next, write the code for an alert dialog with the message "I am Programming!".
+alert("I am Programming!");
 
 
 
 
-// 2. Display a "3... 2... 1..." countdown using 3 alert dialog boxes
-alert("3...");
-alert("2...");
-alert("1...");
-
-
-
-
-
-
-// 3. This statement selects the <h1> element and replaces its text with "BOOM!".
-document.querySelector("h1").textContent = "🔥BOOM!🔥";
-
-
-
-
-
-
-
-// 4. Log "Message destroyed!" to the console
-console.log("Message destroyed");
+// At the end of the script (after alert()), add the code required to print 'End program' to the browser's JavaScript console.
+console.log("End program");
 
 
